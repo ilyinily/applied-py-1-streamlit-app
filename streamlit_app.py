@@ -270,6 +270,6 @@ st.line_chart(
 )
 
 filtered_df = st.session_state["helper_df"][st.session_state["helper_df"]['city'] == selected_city]
-st.subheader(f"Характеристики по сезонам для города {st.session_state["selected_city"]['name']}:")
+st.subheader("Характеристики по сезонам для выбранного города:")
 st.write(filtered_df)
 
